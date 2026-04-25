@@ -1,4 +1,4 @@
-package kz.barbershop.booking.dto;
+package kz.barbershop.booking.dto.Response;
 
 import lombok.Builder;
 import lombok.Getter;

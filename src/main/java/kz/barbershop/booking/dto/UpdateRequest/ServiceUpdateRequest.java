@@ -1,4 +1,4 @@
-package kz.barbershop.booking.dto;
+package kz.barbershop.booking.dto.UpdateRequest;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Min;

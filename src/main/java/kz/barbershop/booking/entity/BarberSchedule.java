@@ -7,28 +7,31 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
-@Table(name = "barbaershedule")
+@Table(name = "barber_schedules")
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
-public class BarberShedule {
+public class BarberSchedule {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "barber_id")
+    @JoinColumn(name = "barber_id", nullable = false)
     private Barber barber;
 
+    @Column(nullable = false)
     private LocalDate workDate;
 
+    @Column(nullable = false)
     private LocalTime startTime;
 
+    @Column(nullable = false)
     private LocalTime endTime;
 
+    @Column(nullable = false)
     private Boolean isWorkingDay;
-
 }

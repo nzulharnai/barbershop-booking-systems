@@ -1,4 +1,6 @@
 package kz.barbershop.booking.entity.Enum;
 
-public class Role {
+public enum Role {
+    USER,
+    ADMIN
 }

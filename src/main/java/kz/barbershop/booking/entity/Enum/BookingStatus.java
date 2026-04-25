@@ -1,4 +1,8 @@
 package kz.barbershop.booking.entity.Enum;
 
-public class BookingStatus {
+public enum BookingStatus {
+    PENDING,
+    CONFIRMED,
+    CANCELED,
+    COMPLETED
 }

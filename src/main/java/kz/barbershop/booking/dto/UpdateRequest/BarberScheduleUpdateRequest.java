@@ -1,4 +1,4 @@
-package kz.barbershop.booking.dto;
+package kz.barbershop.booking.dto.UpdateRequest;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;

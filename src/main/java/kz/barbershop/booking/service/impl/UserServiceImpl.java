@@ -1,4 +1,9 @@
 package kz.barbershop.booking.service.impl;
 
-public interface UserServiceImpl {
+import kz.barbershop.booking.service.UserService;
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class UserServiceImpl implements UserService {
 }
